@@ -1,0 +1,16 @@
+<!-- src/main/resources/templates/resultado.html -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultado</title>
+</head>
+<body>
+    <h1>Resultado da Operação</h1>
+    <p>Operação: <span th:text="${num1}"></span> <span th:text="${operador}"></span> <span th:text="${num2}"></span> = <span th:text="${resultado}"></span></p>
+    <p>Nome do operador: <span th:text="${nomeOperador}"></span></p>
+    <a href="/">Voltar</a>
+</body>
+</html>
